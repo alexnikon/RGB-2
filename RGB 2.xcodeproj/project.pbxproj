@@ -24,6 +24,7 @@
 		3CDEC3B0247D6B6D00285D4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CDEC3B3247D6B6D00285D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CDEC3B5247D6B6D00285D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDEC3BB247D6FAD00285D4C /* RGB 2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "RGB 2.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		3CDEC3A6247D6B6900285D4C /* RGB 2 */ = {
 			isa = PBXGroup;
 			children = (
+				3CDEC3BB247D6FAD00285D4C /* RGB 2.entitlements */,
 				3CDEC3A7247D6B6900285D4C /* AppDelegate.swift */,
 				3CDEC3A9247D6B6900285D4C /* SceneDelegate.swift */,
 				3CDEC3AB247D6B6900285D4C /* ContentView.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RGB 2/RGB 2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RGB 2/Preview Content\"";
 				DEVELOPMENT_TEAM = 6FWRCBA7N2;
@@ -295,6 +298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "goomboldt.RGB-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RGB 2/RGB 2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RGB 2/Preview Content\"";
 				DEVELOPMENT_TEAM = 6FWRCBA7N2;
@@ -315,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "goomboldt.RGB-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
